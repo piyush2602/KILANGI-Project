@@ -648,6 +648,21 @@ img { display: block; max-width: 100%; height: auto; }
 
 /* Responsive */
 @media (max-width: 900px) {
+    /* Hide social icons on mobile and keep text centered */
+    .social-icons {
+        display: none !important;
+    }
+    
+    .top-bar-content {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .top-bar-content p {
+        text-align: center;
+        width: 100%;
+    }
+    
     .header-main {
         display: flex;
         flex-wrap: wrap;
